@@ -42,4 +42,5 @@ def main():
         i=i+1
 main()
 print("sistem kapanmıştır...")
+print("toplam sisteme kayıt etme sayısı::")
 print(i)
