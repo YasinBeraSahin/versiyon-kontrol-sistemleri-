@@ -41,7 +41,6 @@ def main():
         print(f"{magaza_adi} mağazasının toplam satış tutarı: {magaza_toplam}TL\n")
         i=i+1
 main()
-print("sistem kapanmıştır...")
 print("toplam sisteme kayıt etme sayısı::")
 print(i)
 print("işlemler kaydedildi. iyi günler dileriz..:)")
