@@ -39,3 +39,4 @@ def main():
         magaza_toplam = magaza_genel_toplam(satis_bilgi, magaza_adi)
         print(f"{magaza_adi} mağazasının toplam satış tutarı: {magaza_toplam}TL\n")
 main()
+print("sistem kapanmıştır...")
