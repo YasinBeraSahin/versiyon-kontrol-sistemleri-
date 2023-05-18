@@ -1,3 +1,4 @@
+i=1
 class Magaza:
     def __init__(self, magaza_adi, satici_adi, satici_cinsi):
         self.__satici_adi = satici_adi
@@ -38,5 +39,7 @@ def main():
             print(mt.__str__(satis_bilgi))
         magaza_toplam = magaza_genel_toplam(satis_bilgi, magaza_adi)
         print(f"{magaza_adi} mağazasının toplam satış tutarı: {magaza_toplam}TL\n")
+        i=i+1
 main()
 print("sistem kapanmıştır...")
+print(i)
